@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: "montserrat";
+}
+
+.main {
+    background-color: white;
+    width: 375px;
+    height: 800px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    width: 89%;
+    height: 44px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navbar p {
+    font-size: 15px;
+
+    font-weight: 600;
+    margin: 0;
+}
+
+.statusbar img {
+    height: 20px;
+    width: 67px;
+}
+
+.skip a {
+    height: 20x;
+    color: #9FB2FF;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.content img {
+    width: 282px;
+    height: 282px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contentText {
+    text-align: start;
+    padding: 20px;
+}
+
+.contentText h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+
+.contentText p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #787878;
+}
+
+.next a {
+    height: 20x;
+    color: #9FB2FF;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#page2img {
+    width: 350px;
+    height: 235px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    object-fit: contain;
+}
+
+/* Page 3 Css */
+
+.createAccount {
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.create-btn {
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 343px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.createAccountInfo input {
+    width: 95%;
+    height: 30px;
+    margin-bottom: 20px;
+    background: #F1F1F1;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    outline-color: #7B91FF;
+}
+
+.createAccountInfo h1 {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 50px;
+    line-height: 23.44px;
+}
+
+.termsandconditions {
+    display: flex;
+    align-items: center;
+    width: 313px;
+}
+
+.termsandconditions p {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(127, 127, 127, 1);
+    margin-left: 10px;
+}
+
+.line {
+    border-top: 0.5px solid #7F7F7F;
+    width: 345px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    height: 10px;
+    width: 30px;
+    font-size: 12px;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.google {
+    border: 1px solid #7F7F7F;
+    border-radius: 8px;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google img {
+    height: 18px;
+    width: 18px;
+}
+
+.facebook {
+    border: 1px solid #7F7F7F;
+    border-radius: 8px;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook img {
+    height: 18px;
+    width: 18px;
+}
+
+#login {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#login a {
+    color: #7B91FF;
+}
+
+/* Page 4 Css */
+
+.login {
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.signIn-btn {
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 343px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#loginInfo {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#loginInfo input {
+    border: none;
+    border-radius: 12px;
+    width: 95%;
+    height: 30px;
+    background-color: #F1F1F1;
+    outline: none;
+}
+
+.loginInfo h1 {
+    font-size: 20px;
+    font-family: "roboto";
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 50px;
+    line-height: 23.44px;
+}
+
+.forgotPassword {
+    text-align: start;
+    margin-bottom: 130px;
+}
+
+.forgotPassword p {
+    margin: 0px;
+}
+
+.forgotPassword a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7F7F7F;
+}
+
+.password-input {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.password-input input {
+    border: none;
+    border-radius: 12px;
+    width: 95%;
+    height: 30px;
+    background-color: #F1F1F1;
+    outline: none;
+}
+
+/* Page 5 Css */
+.goals {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+}
+
+.goals p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.page5heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.goalsCollection {
+    margin-bottom: 150px;
+}
+
+.confirm-btn {
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 343px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.checkMark {
+    height: 22px;
+    width: 22px;
+    border: 1.5px solid #7B91FF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkMark img {
+    display: none;
+}
+
+.checkMark.clicked {
+    border: none;
+}
+
+.checkMark.clicked img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+/* Page 6 Css */
+
+.mobile-menu {
+    background-color: white;
+    height: 76px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    
+}
+.margintop140px{
+    margin-top: 140px;
+}
+.workoutTrackerHeading {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.workoutTrackerHeading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.achievementsTracker {
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+}
+
+.achievementsTracker p {
+    font-size: 11.2px;
+    color: #2C2B2B;
+    font-weight: 400;
+    margin: 0;
+}
+
+.achievementsTracker div {
+    margin-right: 41px;
+}
+
+#workoutTrackerGraph {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.upcomingWorkout {
+    padding: 20px;
+}
+
+.upcomingWorkoutHeading {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming1 {
+    background-image: url('images/background.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcoming1Info {
+    display: flex;
+}
+
+.upcoming1Info img {
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-bottom: 18px;
+
+}
+
+#p1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#p2 {
+    color: rgba(127, 127, 127, 1);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.36px;
+}
+
+#infop1 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+#infop2 {
+    color: rgba(127, 127, 127, 1);
+    margin: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-align: start;
+}
+
+/* Toggle Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+    /* Make it round */
+}
+
+/* Slider handle */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 15px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+
+    transform: translate3d(-75%, 0, 0);
+    transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+}
+
+/* Checked state */
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+/* Focus state */
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+/* Checked state animation */
+input:checked+.slider:before {
+    transform: translateX(8px);
+    transition: transform 0.6s ease-in-out;
+    /* Add animation */
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.training {
+    display: flex;
+    margin-top: 0;
+}
+
+.trainingp {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: start;
+    color: rgba(44, 43, 43, 1);
+    padding: 7px;
+    margin-left: 15px;
+}
+
+#tp2 {
+    font-size: 10px;
+}
+
+#tp1 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.training{
+    background-image: url('images/trainingbg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 124px;
+    width: 343px;
+    margin-top: 100px;
+}
+.training img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+/* Page 7 Css */
+.workoutScheduleHeading {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.workoutScheduleHeading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.month-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.month-year p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hrline {
+    border: 0.5px solid rgba(127, 127, 127, 1)
+}
+
+.workoutSchedule {
+    position: relative;
+}
+
+.workoutSchedule p {
+    margin: 15px;
+    text-align: start;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mobile-menu{
+    background-image: url('images/mobilemenu.svg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 55px;
+}
+
+.mobile-main-menu{
+    padding: 20px;
+}
+
+.mobile-menu img {
+    margin-bottom: 20px;
+}
+
+.mainpage7 {
+    height: 880px;
+}
+
+.plus {
+    background-image: url('images/plusbg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 30px;
+    position: absolute;
+    top: 75%;
+    right: 4%;
+    text-align: center;
+}
+
+.taskScheduled {
+    background-image: url('images/taskbg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px;
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    text-align: center;
+    color: white;
+}
+
+.taskScheduled2 {
+    background-image: url('images/taskbg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 23.5%;
+    right: 25%;
+    text-align: center;
+    color: white;
+
+}
+
+.taskScheduled3 {
+    background-image: url('images/greytaskbg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 66%;
+    right: 25%;
+    text-align: center;
+    color: black;
+
+}
+
+ 
+/**************************                 Assignment Dacoid Finished          **************************/
